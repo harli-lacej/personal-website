@@ -40,12 +40,19 @@ header{
     display:inline-block;
 }
 
-.nav_links li a{
-    transition:all 0.3 ease 0s;
+a, a:link {
+  color: white;
+  text-decoration: none;
+  background-position-y: -0%;
+  background-image: linear-gradient( #474948 50%, gold 50%);
+  transition: background 500ms ease;
+  background-size: 2px;
+  background-size: auto 175%;
 }
 
-.nav_links li a:hover{
-    color:white;
+a:hover {
+  background-position-y: 100%;
+
 }
 
 .logo{
