@@ -58,3 +58,34 @@ a:hover {
 .logo{
     cursor: pointer;
 }
+
+.footer{
+    font-size:15px;
+    background-color:#FFD700;
+    width:100%;
+    height:35px;
+    margin-bottom:0;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+}
+.nav_icon{
+    visibility: hidden;
+}
+/*responsive nav-bar */
+
+@media(max-width: 768px){
+
+    .nav_links li{
+        display:block;
+        font-size:12px;
+        float:none;
+    }
+    .nav_icon{
+        visibility: visible;
+    }
+      
+
+
+
+}
