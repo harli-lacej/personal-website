@@ -10,6 +10,9 @@ body
 }
 h1{
     color: white;
+    text-align:center;
+    font-family:Quicksand,sans-serif;
+    font-weight: bold;
 }
 
 li,a{
@@ -17,6 +20,8 @@ li,a{
 font-family:"Quicksand",sans-serif;
 text-decoration:none;
 color:orange;
+font-size: 20px;
+padding:5px;
 
 }
 
@@ -24,7 +29,7 @@ header{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding: 30px 10%;
+    padding: 10px 10%;
 }
 
 .nav_links{
@@ -41,4 +46,8 @@ header{
 
 .nav_links li a:hover{
     color:white;
+}
+
+.logo{
+    cursor: pointer;
 }
