@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Harli Lacej - Projects</title>
 </head>
 <body>
+    <header>
+        <img class="logo" src="./img/logo.png" alt="logo" height="50" width="50">
+        <nav>
+            <ul id="icon" class="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li class="nav_icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30" width="30px" height="30px">
+                    <g id="surface50377271">
+                    <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,84.313726%,0%);fill-opacity:1;" d="M 3 4.800781 C 2.566406 4.792969 2.164062 5.019531 1.945312 5.394531 C 1.726562 5.769531 1.726562 6.230469 1.945312 6.605469 C 2.164062 6.980469 2.566406 7.207031 3 7.199219 L 27 7.199219 C 27.433594 7.207031 27.835938 6.980469 28.054688 6.605469 C 28.273438 6.230469 28.273438 5.769531 28.054688 5.394531 C 27.835938 5.019531 27.433594 4.792969 27 4.800781 Z M 3 13.800781 C 2.566406 13.792969 2.164062 14.019531 1.945312 14.394531 C 1.726562 14.769531 1.726562 15.230469 1.945312 15.605469 C 2.164062 15.980469 2.566406 16.207031 3 16.199219 L 27 16.199219 C 27.433594 16.207031 27.835938 15.980469 28.054688 15.605469 C 28.273438 15.230469 28.273438 14.769531 28.054688 14.394531 C 27.835938 14.019531 27.433594 13.792969 27 13.800781 Z M 3 22.800781 C 2.566406 22.792969 2.164062 23.019531 1.945312 23.394531 C 1.726562 23.769531 1.726562 24.230469 1.945312 24.605469 C 2.164062 24.980469 2.566406 25.207031 3 25.199219 L 27 25.199219 C 27.433594 25.207031 27.835938 24.980469 28.054688 24.605469 C 28.273438 24.230469 28.273438 23.769531 28.054688 23.394531 C 27.835938 23.019531 27.433594 22.792969 27 22.800781 Z M 3 22.800781 "/>
+                    </g>
+                    </svg>
+                    </li>
+            </ul>
+        </nav>  
+    </header>
+    <div class="dropdown">
+        <div id="myDropdown" class="dropdown-content">
+          <a class="home" href="index.html">Home</a>
+          <a class="about" href="aboutme.html">About</a>
+          <a class="contact" href="contact.html">Contact</a>
+          <a class="projects" href="projects.html">Projects</a>
+        </div>
+      </div>
+      
+      <script>
+      // Get the button, and when the user clicks on it, execute myFunction
+      document.getElementById("icon").onclick = function() {myFunction()};
+      
+      /* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      </script>
     
 </body>
 </html>
