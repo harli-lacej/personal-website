@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Quicksand:wght@300&family=Titillium+Web:wght@300&display=swap');
+
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+body            
+{
+    background-color:#474948;
+}
+h1{
+    color: white;
+    text-align:center;
+    font-family:Quicksand,sans-serif;
+    font-weight: bold;
+}
+
+li,a{
+
+font-family:"Quicksand",sans-serif;
+text-decoration:none;
+color:orange;
+font-size: 20px;
+padding:5px;
+
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px 10%;
+}
+
+.nav_links{
+    list-style:none;
+}
+
+.nav_links li{
+    display:inline-block;
+}
+
+a, a:link {
+  color: white;
+  text-decoration: none;
+  background-position-y: -0%;
+  background-image: linear-gradient( #474948 50%, gold 50%);
+  transition: background 500ms ease;
+  background-size: 2px;
+  background-size: auto 175%;
+}
+
+a:hover {
+  background-position-y: 100%;
+
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.footer{
+    font-size:15px;
+    background-color:#FFD700;
+    width:100%;
+    height:35px;
+    text-align: center;
+    font-family:Quicksand,sans-serif;
+    margin-bottom:0;
+    color:white;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+}
+.nav_icon{
+    visibility: hidden;
+}
+/*responsive nav-bar */
+
+@media(max-width: 768px){
+
+    .nav_links li{
+        display:block;
+        font-size:12px;
+        float:none;
+    }
+    .nav_icon{
+        visibility: visible;
+        margin-top:0px;
+        padding-top:0px;
+        cursor:pointer;
+    }
+    a, a:link {
+       display:none;
+      }
+
+}
+
+@media(min-width: 768px){
+
+    .dropdown{
+        visibility: hidden;
+    }
+    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    left:50%;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    left: 50%;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+  
+  .show {
+    display:block;
+}
+
+
+
+
