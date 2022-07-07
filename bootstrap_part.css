@@ -1,7 +1,13 @@
-.row{
-    background-color:#FFD700;
+body            
+{
+    background-color:#474948 !important;
 }
-div .media{
+.media{
     background-color: #474948;
-    color: white;
+    color:white;
+    margin:auto;
+}
+.bootstrap{
+    max-width:80%;
+    margin:auto;
 }
