@@ -136,6 +136,9 @@ a:hover {
   .show {
     display:block;
 }
+p{
+    font-size:16px;
+}
 
 
 
