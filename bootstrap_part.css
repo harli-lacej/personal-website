@@ -19,3 +19,6 @@
 button{
     background-color:#FFD700;
 }
+#mydiv {
+    all: initial; /* blocking inheritance for all properties */
+  }
